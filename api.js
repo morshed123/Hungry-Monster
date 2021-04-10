@@ -1,6 +1,8 @@
 // get random meals
 for (let i = 0; i < 9; i++) {
+    // fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     fetch('https://www.themealdb.com/api/json/v1/1/random.php')
+
         .then(response => response.json())
         .then(data => randomMeals(data.meals[0]))
 }
