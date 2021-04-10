@@ -1,0 +1,45 @@
+.meal{
+    display: flex;
+    float: left;
+    margin: 10px 42px 10px 42px;
+    text-align: center;
+    height: 300px;
+    background-color: pink;
+    border-radius: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#meal-details{
+    justify-content: space-between;
+}
+.meal img{
+    width: 200px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 11px;
+    display: block;
+}
+.meal h6{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#meal-details{
+    display: none;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 20px;
+    align-items: center;
+    color: black;
+}
+#meal-details img{
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+}
+#home{
+    cursor: pointer;
+}
